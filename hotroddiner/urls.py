@@ -19,6 +19,7 @@ from django.urls import path
 from about.views import about
 from booking.views import booking
 from login.views import login
+from menu.views import menu
 from register.views import register
 
 urlpatterns = [
@@ -27,4 +28,5 @@ urlpatterns = [
     path('login/', login, name='login'),
     path('booking/', booking, name='booking'),
     path('register/', register, name='register'),
+    path('menu/', menu, name='menu'),
 ]
