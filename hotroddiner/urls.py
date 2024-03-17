@@ -19,10 +19,12 @@ from django.urls import path
 from about.views import about
 from booking.views import booking
 from login.views import login
+from register.views import register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', about, name='about'),
     path('login/', login, name='login'),
     path('booking/', booking, name='booking'),
+    path('register/', register, name='register'),
 ]

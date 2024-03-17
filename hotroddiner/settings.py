@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'about', 
     'booking',
     'login', 
+    'register',
 ]
 
 MIDDLEWARE = [
