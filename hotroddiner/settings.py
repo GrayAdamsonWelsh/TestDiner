@@ -32,6 +32,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-grayadamsonwe-testdiner-jvxi1xtx909.ws-eu110.gitpod.io', '.herokuapp.com']
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.gitpod.io",
+    "https://*.herokuapp.com"
+]
 # Application definition
 
 INSTALLED_APPS = [
