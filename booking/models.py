@@ -6,9 +6,9 @@ from django.contrib.auth.models import User
 class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="booking") 
     dateBooking = models.DateField()
-    timeBooking = models.DateTimeField()
-    numberBookig = models.IntegerField()
-    notesBooking = models.TextField(max_length=500)
+    timeBooking = models.TimeField()
+    numberBooking = models.IntegerField()
+    notesBooking = models.TextField(max_length=500, blank=True)
 
 class TableDetails(models.Model):
     tableSize = models.IntegerField()    

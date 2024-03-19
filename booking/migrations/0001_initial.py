@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('dateBooking', models.DateField()),
                 ('timeBooking', models.DateTimeField()),
-                ('numberBookig', models.IntegerField()),
+                ('numberBooking', models.IntegerField()),
                 ('notesBooking', models.TextField(max_length=500)),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='booking', to=settings.AUTH_USER_MODEL)),
             ],
