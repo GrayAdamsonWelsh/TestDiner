@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-u_00iec4p&8gq_q$e=g#!)nudhgi%dz4it=b#7#ot9^3n$_fvx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-grayadamsonwe-testdiner-jvxi1xtx909.ws-eu110.gitpod.io', '.herokuapp.com']
+ALLOWED_HOSTS = ['8000-grayadamsonwe-testdiner-dxgsgwu6gnq.ws-eu110.gitpod.io', '.herokuapp.com']
 
 
 CSRF_TRUSTED_ORIGINS = [
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'login', 
     'menu',
     'register',
+    'index', 
 ]
 
 MIDDLEWARE = [
